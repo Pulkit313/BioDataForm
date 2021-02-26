@@ -1,0 +1,12 @@
+input:focus {
+    background-color:cadetblue;
+  }
+ form:hover{
+     background-color: rgb(194, 194, 185);
+ }
+  @media screen and (max-width: 500px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
